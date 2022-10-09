@@ -6,9 +6,11 @@ public class LeapYear {
 
     /**
      * Update this comment to describe what this method does.
+     * rina
      */
     public static boolean isLeapYear(int year) {
         // Optional TODO: Fill in this method.
+        return year % 4 == 0;
     }
 
     /** Calls isLeapYear to print correct statement. */
